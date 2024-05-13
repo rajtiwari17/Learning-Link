@@ -12,7 +12,7 @@ export const signup = async(req, res) => {
             fullname: fullname,
             email: email,
             password: hashPassword,
-        });
+        });  
         await createdUser.save();
         res.status(201).json({
             message: "User created successfully",

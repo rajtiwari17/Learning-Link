@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 
+import list from "../../public/list.json"
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -7,10 +9,12 @@ import Slider from "react-slick";
 import axios from "axios";
 
 import Cards from "./Cards";
+
+
 function Freebook() {
   const [book, setBook] = useState([]);
   useEffect(() => {
-    const getBook = async () => {
+    const getBook = async () => {  
       try {
         const res = await axios.get("http://localhost:4001/book");
 
@@ -64,9 +68,10 @@ function Freebook() {
         <div>
           <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Accusantium veritatis alias pariatur ad dolor repudiandae eligendi
-            corporis nulla non suscipit, iure neque earum?
+            corporis nulla non suscipit, iure neque earum? */}
+            This is Freebook Section, explore here!
           </p>
         </div>
 

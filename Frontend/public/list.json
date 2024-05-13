@@ -1,0 +1,58 @@
+[
+    {
+        "id":1,
+        "name":"First Book",
+        "title":"Title 1",
+        "price":5.99,
+        "category": "Java",
+        "image":"https://ebookfriendly.com/wp-content/uploads/2021/06/A-book-is-a-dream-poster-by-Risa-Rodil-best-read-posters.jpg"
+
+    },
+
+    {
+        "id":2,
+        "name":"Second Book",
+        "title":"Title 2",
+        "price":0,
+        "category": "Python",
+        "image":"https://ebookfriendly.com/wp-content/uploads/2021/06/A-book-is-a-dream-poster-by-Risa-Rodil-best-read-posters.jpg"
+
+    },
+    {
+        "id":3,
+        "name":"Third Book",
+        "title":"Title 3",
+        "price":0,
+        "category": "Javascript",
+        "image":"https://ebookfriendly.com/wp-content/uploads/2021/06/A-book-is-a-dream-poster-by-Risa-Rodil-best-read-posters.jpg"
+
+    },
+    {
+        "id":4,
+        "name":"Fourth Book",
+        "title":"Title 4",
+        "price":0,
+        "category": "Java",
+        "image":"https://ebookfriendly.com/wp-content/uploads/2021/06/A-book-is-a-dream-poster-by-Risa-Rodil-best-read-posters.jpg"
+
+    },
+    {
+        "id":1,
+        "name":"Fifth Book",
+        "title":"Title 5",
+        "price":0,
+        "category": "DSA",
+        "image":"https://ebookfriendly.com/wp-content/uploads/2021/06/A-book-is-a-dream-poster-by-Risa-Rodil-best-read-posters.jpg"
+
+    },
+    {
+        "id":6,
+        "name":"Sixth Book",
+        "title":"Title 1",
+        "price":0,
+        "category": "Dbms",
+        "image":"https://ebookfriendly.com/wp-content/uploads/2021/06/A-book-is-a-dream-poster-by-Risa-Rodil-best-read-posters.jpg"
+
+    }
+]
+ 

@@ -1,7 +1,7 @@
 {
     "name": "bookstore",
     "version": "1.0.0",
-    "description": "mern project",
+    "description": "mern project bookstore",
     "main": "index.js",
     "type": "module",
     "scripts": {
@@ -10,14 +10,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/akhil2k-lc/bookStoreApp.git"
+        "url": "git+https://github.com/rajtiwari17/Learning-Link"
     },
-    "author": "Akhil",
+    "author": "learning",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/akhil2k-lc/bookStoreApp/issues"
+        "url": "https://github.com/rajtiwari17/Learning-Link"
     },
-    "homepage": "https://github.com/akhil2k-lc/bookStoreApp#readme",
+    "homepage": "https://github.com/rajtiwari17/Learning-Link#readme",
     "dependencies": {
         "bcryptjs": "^2.4.3",
         "cors": "^2.8.5",

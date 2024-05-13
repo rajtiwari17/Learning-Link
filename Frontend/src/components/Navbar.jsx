@@ -22,6 +22,7 @@ function Navbar() {
     }
   }, [theme]);
 
+  // for adding a shadow in the navbar
   const [sticky, setSticky] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
