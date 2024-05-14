@@ -46,10 +46,10 @@ function Navbar() {
         <a href="/course">Course</a>
       </li>
       <li>
-        <a>Contact</a>
+        <a >Contact</a>
       </li>
       <li>
-        <a>About</a>
+        <a href="/about">About Us</a>
       </li>
     </>
   );
@@ -99,7 +99,7 @@ function Navbar() {
               <ul className="menu menu-horizontal px-1">{navItems}</ul>
             </div>
             <div className="hidden md:block">
-              <label className=" px-3 py-2 border rounded-md flex items-center gap-2">
+              {/* <label className=" px-3 py-2 border rounded-md flex items-center gap-2">
                 <input
                   type="text"
                   className="grow outline-none rounded-md px-1 dark:bg-slate-900 dark:text-white"
@@ -117,7 +117,7 @@ function Navbar() {
                     clipRule="evenodd"
                   />
                 </svg>
-              </label>
+              </label> */}
             </div>
             <label className="swap swap-rotate">
               {/* this hidden checkbox controls the state */}

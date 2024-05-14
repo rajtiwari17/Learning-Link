@@ -118,6 +118,14 @@ function Signup() {
                     Login
                   </button>{" "}
                   <Login />
+
+                  {/* <Link
+                  to="/login"
+                  className="underline text-blue-500 cursor-pointer"
+                >
+                  Login
+                </Link>{" "} */}
+              
                 </p>
               </div>
             </form>

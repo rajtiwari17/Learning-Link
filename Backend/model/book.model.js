@@ -6,6 +6,7 @@ const bookSchema = mongoose.Schema({
     category: String,
     image: String,
     title: String,
+    durl: String
 });
 const Book = mongoose.model("Book", bookSchema);
 
