@@ -1,23 +1,15 @@
 {
-    "name": "bookstore",
+    "name": "learning",
     "version": "1.0.0",
-    "description": "mern project bookstore",
+    "description": "mern project",
     "main": "index.js",
     "type": "module",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "nodemon index.js"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/rajtiwari17/Learning-Link"
-    },
     "author": "learning",
     "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/rajtiwari17/Learning-Link"
-    },
-    "homepage": "https://github.com/rajtiwari17/Learning-Link#readme",
     "dependencies": {
         "bcryptjs": "^2.4.3",
         "cors": "^2.8.5",
