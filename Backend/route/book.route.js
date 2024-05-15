@@ -1,10 +1,12 @@
 import express from "express";
-import { getBook } from "../controller/book.controller.js";
+import { getBook, uploadBook } from "../controller/book.controller.js";
 import Book from "../model/book.model.js";
 
 const router = express.Router();
 
 router.get("/", getBook);
+
+router.post("/upload", uploadBook);
 
 router.get("/category/:category", async (req, res) => {
     const category = req.params.category;
@@ -18,7 +20,10 @@ router.get("/category/:category", async (req, res) => {
       console.error("Error fetching books by category:", error);
       res.status(500).json({ message: "Internal server error" });
     }
-  });
+});
+
+
+
 
 
 export default router;
